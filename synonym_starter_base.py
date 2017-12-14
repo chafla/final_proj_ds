@@ -158,7 +158,7 @@ def most_similar_word(word: str, choices: str, semantic_descriptors: dict, simil
     return best_match
 
 
-def run_similarity_test(filename, semantic_descriptors, similarity_fn):
+def run_similarity_test(filename, semantic_descriptors, similarity_fn) -> float:
     words_run = 0
     words_correct = 0
 
